@@ -1,3 +1,3 @@
-module exam
+module piscine
 
 go 1.19

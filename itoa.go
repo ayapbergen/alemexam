@@ -1,4 +1,4 @@
-package exam
+package piscine
 
 func Itoa(n int) string {
 	s := ""

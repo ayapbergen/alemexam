@@ -1,10 +1,11 @@
 package main
 
 import (
-	"exam"
 	"fmt"
+	"piscine"
 )
 
 func main() {
-	fmt.Print(exam.Itoa(-124))
+	l := piscine.StrLen("Hello World!")
+	fmt.Println(l)
 }
