@@ -1,7 +1,5 @@
 package exam
 
-import "fmt"
-
-func myPrint() {
-	fmt.Println("hi")
+func SwapBits(octet byte) byte {
+	return octet<<4 + octet>>4
 }

@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"exam"
+	"fmt"
+)
 
 func main() {
-	fmt.Println("test2")
+	fmt.Print(exam.Itoa(-124))
 }
