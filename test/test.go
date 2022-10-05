@@ -1,15 +1,15 @@
 package main
 
 import (
-	"fmt"
 	"piscine"
+
+	"github.com/01-edu/z01"
 )
 
 func main() {
-	result := []string{"a", "A", "1", "b", "B", "2", "c", "C", "3"}
-	piscine.SortWordArr(result)
-
-	fmt.Println(result)
+	z01.PrintRune(piscine.LastRune("Hello!"))
+	z01.PrintRune(piscine.LastRune("Salut!"))
+	z01.PrintRune(piscine.LastRune("Ola!"))
 
 	// inter
 	// args := os.Args
